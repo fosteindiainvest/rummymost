@@ -41,15 +41,15 @@ async function DownSoft() {
 
 	if (isiOS) {
 		//window.location.href = "https://gogo.xycyin.com/v5zni71hr1vpjl"
-		window.location.href = "https://gogo.ycwoqqaf.com/v5zni71hr1vpjl"
+		window.location.href = "https://rummymost.net?from_gameid=9919376&channelCode=5270125"
 	}
 	else if (isAndroid) {
 	 //window.location.href = "https://xjpklccossyd10.zxcvrfrec.com/RummyMost-apk/RummyMost-193502.apk"
-	 window.location.href = "https://rummymostvip.com/RummyMost-apk/RummyMost-193502.apk"
+	 window.location.href = "https://rummymost.net?from_gameid=9919376&channelCode=5270125"
 
 	}
 	else {
 		//window.location.href = "https://xjpklccossyd10.zxcvrfrec.com/RummyMost-apk/RummyMost-193502.apk"
-		window.location.href = "https://rummymostvip.com/RummyMost-apk/RummyMost-193502.apk"
+		window.location.href = "https://rummymost.net?from_gameid=9919376&channelCode=5270125"
 	}
 }
