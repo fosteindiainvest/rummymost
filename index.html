@@ -1,0 +1,91 @@
+<html style="font-size: 60.2778px;">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>Rummy Most</title>
+    <meta name="keyword" content="">
+    <meta name="description" content="">
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="pub_rem.js" type="text/javascript"></script>
+    <script type="text/javascript" src="kflj.js"></script>
+    <script type="text/javascript" src="download.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="top" onclick="DownSoft()" style="visibility: hidden;">
+            <div class="topIcon"><img src="topIcon.png" alt=""></div>
+            <div class="topTitle">Rummy Most</div>
+        </div>
+        <img class="bg" src="bj.png" alt="">
+        <div class="customer" onclick="customer(1)"><a href="https://t.me/annie_aies"></a></div>
+        <div class="downBtn" onclick="DownSoft()">
+            <div class="online">
+                <a href="https://rummymost.net?from_gameid=9919376&channelCode=5270125"></a>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="webLink">
+                <!--<div onclick="openLink(1)" class="linkInfo">About Us</div>-->
+                <!--<div onclick="openLink(2)" class="linkInfo">Terms & Conditions</div>-->
+                <!--<div onclick="openLink(3)" class="linkInfo">Privacy Policy</div>-->
+                <!--<div onclick="openLink(4)" class="linkInfo">Cancellation & Refund Policy</div>-->
+                <!--<div onclick="openLink(5)" class="linkInfo">Pricing</div>-->
+                <div onclick="openLink(6)" class="linkInfo">Contact Us</div>
+            </div>
+            <p style="margin: 0.4rem 0; color: #ffc66b;font-size: 0.25rem;text-align: center;">Ashenfallous SOLUTIO
+                TECHNOLOGIES PRIVATE
+                LIMITED</p>
+            <p style="margin-bottom: 0.2rem; font-size: 0.25rem;text-align: center;">Copyright 2022 RummyMost.com All
+                rights reseved</p>
+        </div>
+    </div>
+
+    <style>
+        .webLink {
+            margin-top: 0.5rem;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 100%;
+            font-size: 0.25rem;
+        }
+
+        .linkInfo {
+            margin: 5px 0;
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+
+        var topBanner = document.getElementById('top');
+        function browserRedirect() {
+            var sUserAgent = navigator.userAgent.toLowerCase();
+            var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+            var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+            var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+            var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+            var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+            var bIsAndroid = sUserAgent.match(/android/i) == "android";
+            var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+            var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+            if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+                topBanner.style.visibility = "visible"
+            } else {
+                topBanner.style.visibility = "hidden"
+            }
+        }
+        browserRedirect();
+    </script>
+
+
+
+</body>
+
+</html>
